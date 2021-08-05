@@ -14,6 +14,11 @@ body {
   box-sizing: border-box;
 }
 
+.card {
+  display: flex;
+  background: hsl(244, 38%, 16%);
+}
+
 .card h1 {
   color: hsl(0, 0%, 100%);
   font-family: "Inter", sans-serif;
@@ -28,12 +33,13 @@ body {
 
 .card-stats {
   color: hsl(0, 0%, 100%);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .attribution {
+  color: hsla(0, 0%, 100%, 0.75);
   font-size: 11px;
   text-align: center;
 }
