@@ -16,14 +16,21 @@ body {
 
 .card h1 {
   color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
 }
 
 .card-main-text {
   color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
 }
 
 .card-stats {
   color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 .attribution {
