@@ -1,0 +1,35 @@
+/* Basic styling */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: hsl(233, 47%, 7%);
+  scroll-behavior: smooth;
+  font-size: 15px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.card h1 {
+  color: hsl(0, 0%, 100%);
+}
+
+.card-main-text {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-stats {
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
