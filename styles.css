@@ -33,9 +33,15 @@ body {
 
 .card-stats {
   color: hsl(0, 0%, 100%);
-  /* text-transform: uppercase; */
   font-family: "Inter", sans-serif;
   font-weight: 700;
+}
+
+.card-stats td {
+  color: hsla(0, 0%, 100%, 0.75);
+  /* font-family: "Lexend Deca", sans-serif; */
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .attribution {
