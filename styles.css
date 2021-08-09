@@ -27,6 +27,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .card-column-left {
   width: 50%;
   display: flex;
@@ -42,6 +43,7 @@ body {
   color: hsl(0, 0%, 100%);
   font-family: "Inter", sans-serif;
   font-weight: 700;
+  text-align: left;
 }
 
 .card-main-text {
@@ -49,12 +51,18 @@ body {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: 15px;
+  text-align: left;
 }
 
 .card-stats {
   color: hsl(0, 0%, 100%);
   font-family: "Inter", sans-serif;
   font-weight: 700;
+  align-self: flex-start;
+}
+
+.card-stats th {
+  text-align: left;
 }
 
 .card-stats td {
