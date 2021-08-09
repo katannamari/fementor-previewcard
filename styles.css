@@ -28,6 +28,11 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.card-column {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .card-column-left {
   width: 50%;
   display: flex;
@@ -52,6 +57,8 @@ body {
   font-weight: 400;
   font-size: 15px;
   text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .card-stats {
@@ -63,13 +70,16 @@ body {
 
 .card-stats th {
   text-align: left;
+  padding-left: 2rem;
 }
 
 .card-stats td {
   color: hsla(0, 0%, 100%, 0.75);
-  /* font-family: "Lexend Deca", sans-serif; */
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
+  font-size: 0.7rem;
   text-transform: uppercase;
+  padding-left: 2rem;
 }
 
 .card-img {
