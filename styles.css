@@ -43,7 +43,7 @@ body {
   color: hsl(0, 0%, 100%);
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
 }
 
 .card-main-text {
@@ -51,14 +51,14 @@ body {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: 15px;
-  text-align: left;
+  text-align: center;
 }
 
 .card-stats {
   color: hsl(0, 0%, 100%);
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  align-self: flex-start;
+  /* align-self: flex-start; */
 }
 
 .card-stats th {
