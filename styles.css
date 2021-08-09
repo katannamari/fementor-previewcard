@@ -44,6 +44,14 @@ body {
   text-transform: uppercase;
 }
 
+.card-column-right {
+  background-color: hsl(277, 64%, 61%);
+}
+
+.card-img {
+  opacity: 0.5;
+}
+
 .attribution {
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 11px;
