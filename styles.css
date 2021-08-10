@@ -127,3 +127,32 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 480px) {
+  .card {
+    flex-direction: column-reverse;
+  }
+
+  table,
+  table td,
+  table tr,
+  table th {
+    display: block;
+    text-align: left;
+  }
+
+  table th,
+  table td {
+    margin: 0;
+    /* padding-left: 25px; */
+  }
+
+  table td {
+    /* margin-left: 40px; */
+    list-style: none;
+    display: list-item;
+    padding-left: 0;
+  }
+}
