@@ -39,7 +39,7 @@ body {
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
-  padding: 2rem;
+  padding: 1rem 2rem;
 }
 .card-column-right {
   width: 50%;
@@ -84,7 +84,18 @@ body {
 }
 
 .card-img {
-  opacity: 0.5;
+  position: relative;
+}
+
+.card-img::before {
+  background: hsl(277, 64%, 61%);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: soft-light;
 }
 
 .card-img img {
