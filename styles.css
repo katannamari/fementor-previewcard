@@ -67,11 +67,11 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   align-self: flex-start;
+  margin-top: 1rem;
 }
 
 .card-stats th {
   text-align: left;
-  padding-left: 2rem;
 }
 
 .card-stats td {
@@ -80,7 +80,6 @@ body {
   font-weight: 400;
   font-size: 0.7rem;
   text-transform: uppercase;
-  padding-left: 2rem;
 }
 
 .card-img {
