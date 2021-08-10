@@ -56,10 +56,9 @@ body {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 11px;
   text-align: left;
-  /* padding-left: 2rem;
-  padding-right: 2rem; */
+  line-height: 1.5;
 }
 
 .card-stats {
@@ -68,6 +67,12 @@ body {
   font-weight: 700;
   align-self: flex-start;
   margin-top: 1rem;
+}
+
+.card-stats th,
+.card-stats td {
+  /* padding-left: 0.5rem; */
+  padding-right: 2rem;
 }
 
 .card-stats th {
@@ -86,7 +91,7 @@ body {
   position: relative;
 }
 
-.card-img::before {
+.card-img::after {
   background: hsl(277, 64%, 61%);
   content: "";
   position: absolute;
@@ -94,7 +99,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  mix-blend-mode: soft-light;
+  mix-blend-mode: multiply;
+  opacity: 0.9;
 }
 
 .card-img img {
