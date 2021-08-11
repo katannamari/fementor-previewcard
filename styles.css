@@ -137,10 +137,12 @@ body {
     flex-direction: column-reverse;
     margin: 5rem 1rem;
     border-radius: 10px;
+    overflow: hidden;
   }
 
   .card-column {
     width: auto;
+    /* border-radius: 10px; */
   }
 
   .card h1 {
@@ -161,8 +163,8 @@ body {
     line-height: 1.5;
   }
 
-  .card-img,
+  /* .card-img,
   .card-img img {
     border-radius: 10px;
-  }
+  } */
 }
