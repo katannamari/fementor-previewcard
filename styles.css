@@ -97,24 +97,6 @@ body {
   text-transform: lowercase;
 }
 
-.card-stats th,
-.card-stats td {
-  /* padding-left: 0.5rem; */
-  padding-right: 2rem;
-}
-
-.card-stats th {
-  text-align: left;
-}
-
-.card-stats td {
-  color: hsla(0, 0%, 100%, 0.75);
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-}
-
 .card-img {
   position: relative;
 }
@@ -153,10 +135,34 @@ body {
 @media screen and (max-width: 480px) {
   .card {
     flex-direction: column-reverse;
+    margin: 5rem 1rem;
+    border-radius: 10px;
+  }
+
+  .card-column {
+    width: auto;
+  }
+
+  .card h1 {
+    text-align: center;
+  }
+
+  .card-main-text {
+    text-align: center;
   }
 
   .card-stats {
     flex-direction: column;
     text-align: center;
+    align-self: center;
+  }
+
+  .card-stats p {
+    line-height: 1.5;
+  }
+
+  .card-img,
+  .card-img img {
+    border-radius: 10px;
   }
 }
