@@ -30,16 +30,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   background: hsl(244, 38%, 16%);
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
-
-/* .card-column {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-} */
 
 .card-column-left {
   width: 50%;
@@ -132,6 +123,20 @@ body {
 
 /* MEDIA QUERIES */
 
+/* Mobile vertical */
+@media screen and (max-width: 600px) {
+  .card {
+    margin: 0 1rem;
+  }
+
+  .card-stats {
+    flex-direction: column;
+    text-align: left;
+    align-self: left;
+  }
+}
+
+/* Mobile horizontal */
 @media screen and (max-width: 480px) {
   .card {
     flex-direction: column-reverse;
