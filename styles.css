@@ -124,20 +124,20 @@ body {
 /* MEDIA QUERIES */
 
 /* Tablet */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .card {
     margin: 0 1rem;
   }
 }
 
 /* Mobile horizontal */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .card-stats {
     flex-direction: column;
     text-align: left;
     align-self: left;
   }
-}
+} */
 
 /* Mobile vertical */
 @media screen and (max-width: 480px) {
